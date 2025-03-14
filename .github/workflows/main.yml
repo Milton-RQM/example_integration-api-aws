@@ -1,4 +1,4 @@
-Name: FastAPI CI/CD Firs Integration
+name: FastAPI CI/CD Firs Integration
 
 on:
   # Trigger the workflow on push
