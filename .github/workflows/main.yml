@@ -70,7 +70,9 @@ jobs:
       - name: Install AWS CLI
         uses: unfor19/install-aws-cli-action@v1
         with:
-          version: 1
+          with:
+            version: 2                         # default
+            verbose: false                     # default
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_SECRET_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
